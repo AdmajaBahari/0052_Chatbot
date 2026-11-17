@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatbot AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Permanent+Marker&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="board">
+    <header class="masthead">
+      <span class="label">Chatbot AI</span>
+      <h1>Tanya Apa Saja. <span class="hl">Dapat Jawaban.</span></h1>
+      <button id="clear" class="clear" type="button">Hapus chat</button>
+    </header>
+
+    <section id="chat" class="chat" aria-live="polite" aria-label="Percakapan"></section>
+
+    <div id="chips" class="chips">
+      <button type="button" class="chip c-yellow">Jelaskan apa itu API</button>
+      <button type="button" class="chip c-blue">Ide proyek TI untuk mahasiswa</button>
+      <button type="button" class="chip c-green">Bantu aku belajar JavaScript</button>
+    </div>
+
+    <form id="form" class="composer" autocomplete="off">
+      <label for="input" class="sr">Ketik pesan</label>
+      <textarea id="input" rows="1" placeholder="Ketik pesan..." required></textarea>
+      <button id="send" type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
