@@ -1,4 +1,4 @@
-# Chatbot AI (P10)
+# Chatbot AI (Pertemuan10)
 
 Chatbot sederhana berbasis Express yang terhubung ke OpenRouter, dengan respons yang tampil secara streaming dan antarmuka bergaya collage art.
 
