@@ -8,7 +8,7 @@ Chatbot sederhana berbasis Express yang terhubung ke OpenRouter, dengan respons 
 ![Tampilan local](docs/screenshot-local.png)
 
 ### Vercel
-Demo: https://NAMA-PROJECT.vercel.app
+Demo: https://chatbot-052.vercel.app
 
 ![Tampilan Vercel](docs/screenshot-vercel.png)
 
