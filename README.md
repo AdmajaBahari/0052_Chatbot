@@ -2,6 +2,16 @@
 
 Chatbot sederhana berbasis Express yang terhubung ke OpenRouter, dengan respons yang tampil secara streaming dan antarmuka bergaya collage art.
 
+## Tampilan
+
+### Local (localhost:3000)
+![Tampilan local](docs/screenshot-local.png)
+
+### Vercel
+Demo: https://NAMA-PROJECT.vercel.app
+
+![Tampilan Vercel](docs/screenshot-vercel.png)
+
 ## Teknologi
 - Node.js dan Express
 - dotenv untuk menyimpan API key
@@ -26,9 +36,13 @@ Chatbot sederhana berbasis Express yang terhubung ke OpenRouter, dengan respons 
 ## Struktur folder
 ```
 P10/
+├── docs/
+│   ├── screenshot-local.png
+│   └── screenshot-vercel.png
 ├── public/
 │   ├── css/style.css
 │   ├── js/script.js
+│   ├── src/background.jpg
 │   └── index.html
 ├── .env.example
 ├── .gitignore
